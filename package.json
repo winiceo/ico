@@ -1,0 +1,26 @@
+{
+  "name": "tierion-erc20-smart-contract",
+  "version": "0.0.1",
+  "description": "Tierion Network Token (TNT) ERC20 Ethereum Smart Contract",
+  "author": "Glenn Rempe <glenn@tierion.com>",
+  "license": "MIT",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "compile": "./node_modules/.bin/truffle compile",
+    "test": "./scripts/test.sh",
+    "migrate": "./node_modules/.bin/truffle migrate",
+    "shasum": "./scripts/shasum-openzeppelin.sh"
+  },
+  "devDependencies": {
+    "bluebird": "^3.5.0",
+    "ethereumjs-testrpc": "^4.1.1",
+    "lodash": "^4.17.4",
+    "truffle": "^3.4.9",
+    "zeppelin-solidity": "1.2.0"
+  },
+  "dependencies": {
+    "truffle-hdwallet-provider": "0.0.5"
+  }
+}
